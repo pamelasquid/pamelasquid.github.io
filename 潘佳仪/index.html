@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>squid2.4</title>
+    <style>
+        body{background-color:#fcf0f4;margin: 0}
+
+        header{
+            background-color:#d3d5e2;
+            width:100%;
+            margin:0%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+        }
+
+        .head-title {
+            display: inline-block;
+            color: #6d708f;
+            margin: 5px;
+        }
+
+        .card{
+            border-radius: 25px;
+            background:  rgb(249, 252, 255);;
+            box-shadow: 5px 5px 5px #b0b1c3;
+            padding: 50px;
+            width: 700px;
+            text-align: center;
+            margin: auto;
+        }
+
+        .card.list{
+            margin-top: 10px;
+            padding: 25px;
+            left: 1180px;
+            width: 260px;
+            position:sticky;
+            top: 50px;
+        }
+
+        h1{
+            text-align: center;
+            letter-spacing: 4px;
+            color: #6d708f;
+        }
+
+        h3{
+            text-align: center;
+            color: #748eb3;
+        }
+
+        p{
+            text-align: center;
+            color: #6d708f;
+            line-height:200%;
+            letter-spacing: 1.5px;
+        }
+
+        .start{
+            text-align:left;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            letter-spacing: 1px;
+            color: #909fc0;
+            padding-left: 10px;
+        }
+
+        .grid-container {
+            display: grid; 
+            grid-template-rows: auto auto 1fr;
+            grid-template-columns:23% auto 23%;
+            grid-auto-flow: row;
+        }
+
+        .header{
+            grid-column: 1/4;
+        }
+
+        .footer{
+            grid-column: 1/4;
+        }
+
+        .bottom{
+            background:#d3d5e2;
+            width:auto;
+            height: 30px;
+            margin:0%;
+        }
+
+        .lxfs{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .zpzs{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="head-title">调查报告</h2>
+        <div style="margin-right: 35px;">
+            <a style="color: #6d708f;text-decoration:none;" href="#part2">生活环境</a>
+            <a style="color: #6d708f;text-decoration:none;" href="#part3">生活习性</a>
+            <a style="color: #6d708f;text-decoration:none;" href="#part4">兴趣爱好</a>
+            <a style="color: #6d708f;text-decoration:none;" href="#part5">联系方式</a>
+            <a style="color: #6d708f;text-decoration:none;" href="#part6">作品展示</a>
+        </div>
+    </header>
+    <div class="grid-container">
+        <div class="header">
+            <p style="margin: 5px;"><br></p>
+        </div>
+        <div>
+            <p class="start">
+                 HELLO<br>
+                 WELCOME TO THE UNDERWATER WORLD<br>
+                 DBSERVATIOM REPORT ON SQUID
+            </p>
+         </div> 
+        <div>
+            <div class="card" style="margin-top: 10px;">
+                <img src="横幅.png" alt="图片溺水了咕噜噜 。o O"
+                 style="width: 600px;"
+                >
+                <img src="首图.png" alt="图片溺水了咕噜噜 。o O"
+                 style="border-radius: 50%;width: 220px;"    
+                >
+                <h1><br>· 水产生物观察报告 ·</h1>
+                <h3><br> > 生物姓名 < </h3>
+                <p>
+                 潘佳仪<br>
+                 （人类称呼）
+                </p>
+                <h3> > 诞生年月日 < </h3>
+                <p>
+                 包括三个“0”四个“2”<br>
+                 （请自行计算详细日期）
+                </p>
+                <h3> > 生长阶段 < </h3>
+                <p>
+                 物种迷茫期<br>
+                 （对未来暂无<del>鬼话</del>规划）
+                </p>
+                <h3> > 主要技能 < </h3>
+                <p>
+                 视觉传达设计2001<br>
+                 （人类专业）
+                </p>
+            </div>  
+            <div id="part2" class="card" style="margin-top: 40px;">
+                <h3> > 生活环境 < </h3>
+                <p>
+                 自幼生长在充满水的省市<br>
+                 目前主要活动范围<br>
+                 在充满水的高等学府的充满水的校区<br>
+                 （流窜在各个水区流域）
+               </p>
+            </div>
+            <div id="part3" class="card" style="margin-top: 40px;">
+                <h3> > 生活习性 < </h3>
+                <p>
+                 向往吃喝玩乐到处旅游<br>
+                 但无奈行动力不足加外部大环境影响<br>
+                 在居家生根发芽的路上茁壮成长ing<br>
+                 <br>
+                 遵循吃喝玩乐睡的习性<br>
+                 但考虑到在人类世界生存<br>
+                 不得不去学习一些生存技能
+                </p>
+            </div>
+            <div id="part4" class="card" style="margin-top: 40px;">
+                <h3> > 兴趣爱好 < </h3>
+                <p>
+                 ACG领域选手<br>
+                 很多感兴趣的点<br>
+                 但总是停留在欣赏层面很少上手实践<br>
+                 <br>
+                 灵魂是<br>
+                 软体动物门头足纲十腕总目枪形目<br>
+                 肉体却是<br>
+                 脊索动物门哺乳纲灵长目<br>
+                 所以很喜欢<br>
+                 脊索动物门哺乳纲食肉目猫科和犬科<br>
+                 也很正常吧
+                </p>
+            </div>
+            <div id="part5" class="card" style="margin-top: 40px;">
+                <h3> > 联系方式 < </h3>
+                <div class="lxfs">
+                    <div>
+                        <img src="微信.png" alt="图片溺水了咕噜噜 。o O">
+                        <p>130xxx3140</p>
+                    </div>
+                    <div>
+                        <img src="QQ(1).png" alt="图片溺水了咕噜噜 。o O">
+                        <p>163xxxx226</p>
+                    </div>
+                    <div>
+                        <img src="钉钉(1).png" alt="图片溺水了咕噜噜 。o O">
+                        <p>潘x仪</p>
+                    </div>
+                </div>
+            </div>
+            <div id="part6" class="card" style="margin-top: 40px;">
+                <h3> > 作品展示 < </h3>
+                <p>
+                    ！！急救急救！！<br>
+                    抢救一下<br>
+                    怎么大家都这么严谨（？）的放了作品那我也放一下.jpg
+                </p>
+                <div class="zpzs">
+                     <img src="微信图片_202304181534491.jpg" alt="图片溺水了咕噜噜 。o O"
+                          style="width: 150px;">
+                     <img src="微信图片_20230418153447.jpg" alt="图片溺水了咕噜噜 。o O"
+                          style="width: 150px;">
+                     <img src="微信图片_202304181534483.jpg" alt="图片溺水了咕噜噜 。o O"
+                          style="width: 150px;">
+                     <img src="微信图片_202304181534481.jpg" alt="图片溺水了咕噜噜 。o O"
+                          style="width: 150px;">
+                     <img src="微信图片_20230418153449.jpg" alt="图片溺水了咕噜噜 。o O"
+                          style="width: 150px;">
+                     <img src="微信图片_202304181534482.jpg" alt="图片溺水了咕噜噜 。o O"
+                          style="width: 150px;">
+                     <img src="微信图片_20230418153448.jpg" alt="图片溺水了咕噜噜 。o O"
+                          style="width: 150px;">
+                     <img src="微信图片_20230418153447.png" alt="图片溺水了咕噜噜 。o O"
+                          style="width: 150px;">
+                </div>
+            </div>
+            <p><br></p>
+        </div>
+        <div>
+            <div style="width: 100%;"></div>
+            <div class="card list" >
+               <p style="text-align:left;">
+                 fine<br>
+                 这是一些考验你对我认知的内容
+               </p> 
+               <form>
+                 <input list="name" name="name" id="name" type="text" placeholder="姓名">
+                 <datalist id="name">
+                     <option value="潘">
+                      <option value="squid">
+                     <option value="潘佳怡">
+                      <option value="潘佳仪">
+                     <option value="鱿鱼">
+                     </datalist>
+                 <p></p>
+                 <input list="id" name="id" id="id" type="text" placeholder="学号">
+                 <datalist id="id">
+                     <option value="3200101776">
+                     <option value="3200101777">
+                     <option value="3200101778">
+                     <option value="3200101779">
+                     <option value="3200101780">
+                 </datalist>
+                 <p></p>
+                 <input list="age" name="age" id="age" type="text" placeholder="年龄">
+                 <datalist id="age">
+                     <option value="21">
+                     <option value="11415">
+                     <option value="220">
+                     <option value="18">
+                     <option value="666">
+                 </datalist>
+                 <p></p>
+                 <input id="input1" placeholder="说点什么吧"></input>
+                 <p></p>
+                 <button onclick="printInput()">打印</button>
+               </form>
+            </div> 
+        </div>
+        <div class="footer">
+            <h3 class="start" style="text-align: center;">
+             TO BE CONTINUE<br><br><br>
+            </h3>
+        </div>
+    </div>
+    <div class="bottom"></div>
+    <script>
+        function printInput() {
+            let formInput1 = document.getElementById('input1')
+            let formInput2 = document.getElementById('name')
+            let formInput3 = document.getElementById('id')
+            let formInput4 = document.getElementById('age')
+            alert(formInput1.value+formInput2.value+formInput3.value+formInput4.value)
+        }
+    </script>
+</body>
+</html>
